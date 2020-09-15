@@ -82,5 +82,8 @@ func main() {
 		fmt.Fprintln(os.Stderr, "unmarshal err:", err)
 	}
 
-	fmt.Println(trend)
+	for i, v := range trend.Trend.Edges {
+		fmt.Println("No.", i+1)
+		fmt.Printf("\t%s\n%s\n", v.Node.Title, "https://qiita.com/"+v.Node.Author.UrlName+"/items/"+v.Node.Uuid)
+	}
 }
