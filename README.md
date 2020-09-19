@@ -2,6 +2,9 @@
 
 [https://github.com/Le0tk0k/qiita-trend-api](https://github.com/Le0tk0k/qiita-trend-api) を叩いてみた。
 
+# Explanation Entry
+[GoでQiitaのトレンドを取得するAPI②叩いてみた](https://qiita.com/Le0tk0k/items/7bae09c22f2c5d3dd967)
+
 # Example
 
 ```
